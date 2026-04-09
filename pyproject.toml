@@ -11,6 +11,7 @@ dependencies = [
     "ddgs>=9.13.0",
     "duckdb>=1.5.1",
     "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
     "langchain-openai>=1.1.12",
     "openai>=1.82",
     "pandas>=3.0.2",
@@ -20,9 +21,6 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "streamlit>=1.56.0",
 ]
-
-[project.scripts]
-theme-park-rag = "theme_park_rag:main"
 
 [build-system]
 requires = ["uv_build>=0.9.5,<0.10.0"]
