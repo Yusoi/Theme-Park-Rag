@@ -1,0 +1,28 @@
+[project]
+name = "theme-park-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bernardo Silva", email = "bernardo.silva@ltplabs.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ddgs>=9.13.0",
+    "duckdb>=1.5.1",
+    "langchain>=1.2.15",
+    "polars>=1.39.3",
+    "streamlit>=1.56.0",
+]
+
+[project.scripts]
+theme-park-rag = "theme_park_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "theme-park-rag",
+]
