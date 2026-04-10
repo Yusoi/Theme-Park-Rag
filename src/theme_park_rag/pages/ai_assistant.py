@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # Import the pipeline — students edit skeleton/pipeline.py
-from theme_park_rag.solutions.pipeline import run_pipeline
+from theme_park_rag.skeleton.pipeline import run_pipeline
 
 
 def ai_assistant():
